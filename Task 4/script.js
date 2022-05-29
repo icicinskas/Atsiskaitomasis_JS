@@ -22,7 +22,7 @@ fetch(ENDPOINT)
       h3.innerText = x.brand;
       const ul = document.createElement("ul");
       const modelsArray = x.models;
-      for (var i = 1; i < modelsArray.length; i++) {
+      for (var i = 0; i < modelsArray.length; i++) {
         const li = document.createElement("li");
         li.innerText += modelsArray[i];
         ul.append(li);
